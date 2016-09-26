@@ -6,6 +6,7 @@
     $hoge = 1
     $hoge2 = 1
 
-![Alt text](/path/to/1.bmp)
+![Alt text](1.bmp "Optional title")
+
 
 end
