@@ -1,11 +1,16 @@
 Name
 ====
 
-Overview
+## 概要
 
-## Description
+本稿では、白黒濃淡画像にしたのち、２・４・８段階
 
-## Demo
+## 使用した画像
+
+![Alt text](hashi.png "Optional title")
+
+## 結果
+
 
 ![Alt text](11.png "Optional title")
 
@@ -15,11 +20,13 @@ Overview
 
 ![Alt text](14.png "Optional title")
 
-## Requirement
+## プログラムのソース
 
-## Usage
+kadai2.m 参照
 
-## Install
+## 説明
+
+## 考察
 
 ## Contribution
 
