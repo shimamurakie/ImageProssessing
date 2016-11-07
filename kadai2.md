@@ -22,7 +22,7 @@ Name
 
 ## プログラムのソース
 
-kadai2.m 参照
+[kadai2.m](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai2.m)
 
 ## 説明
 
@@ -30,9 +30,7 @@ kadai2.m 参照
 
 ## Contribution
 
-## Licence
 
-[MIT](https://github.com/shimamurakie)
 
 ## Author
 
