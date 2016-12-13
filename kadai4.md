@@ -6,61 +6,49 @@
 
 ## 使用した画像
 
-![Alt text](nuko1.png "Optional title")
+![Alt text](nuko.png "Optional title")
 
 ## 結果
 
 
-![Alt text](kadai7/710.png "Optional title")
+![Alt text](kadai4/1.png "Optional title")
 
 図１　白黒濃淡
 
-![Alt text](kadai7/711.png "Optional title")
+![Alt text](kadai4/2.png "Optional title")
 
 図２
 
-ダイナミックレンジは0から128となっている。
-![Alt text](kadai7/712.png "Optional title")
+neko.pngの輝度値ヒストグラムが表示された。
 
-図３　
 
-明るくなった。
 
-![Alt text](kadai7/713.png "Optional title")
+### 他の画像で試した
 
-図４
+![Alt text](nekoc.png "Optional title")
 
-ダイナミックレンジが変化し、0~255となっている。
+図５　nekoc.png
 
-### 他の画像で試してみた
+![Alt text](kadai4/43.png "Optional title")
 
-![Alt text](hashi1.png "Optional title")
+図６
 
-![Alt text](kadai7/770.png "Optional title")
+![Alt text](kadai4/44.png "Optional title")
 
-![Alt text](kadai7/771.png "Optional title")
+図７
 
-![Alt text](kadai7/772.png "Optional title")
-
-![Alt text](kadai7/773.png "Optional title")
 
 
 ## プログラムのソース
 
-[kadai7.m](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai7.m)
+[kadai4.m](https://github.com/shimamurakie/ImageProssessing/blob/master/kadai4.m)
 
 ## 説明
 
 ## 考察
+nuko.pngでは草が影となっている部分が多く、ヒストグラムも輝度の低い数値に濃度値が集中した。
+一方nekoc.pngでは背景が白であったこと、猫の画像も明度を高くしてあったことから、ヒストグラムも輝度が255のあたりに集中した。
 
-    imagesc(ORG); colormap(gray); colorbar; % 画像の表示
-    pause;
-    ORG = uint8(ORG); % この行について考察せよ
-    imhist(ORG); % 濃度ヒストグラムを生成、表示
-
-unit8は、変換されたORG(配列)の小数点以下の数値を丸め、8ビットの配列とする効果がある。
-
-これを行うことで、0から255のヒストグラムに対応した数値となる。
 
 ## Contribution
 

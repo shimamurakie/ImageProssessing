@@ -6,36 +6,58 @@
 
 ## 使用した画像
 
-![Alt text](hashi1.png "Optional title")
+![Alt text](nuko1.png "Optional title")
 
 ## 結果
 
 
-![Alt text](770.png "Optional title")
+![Alt text](kadai7/710.png "Optional title")
 
 図１　白黒濃淡
 
-![Alt text](771.png "Optional title")
+![Alt text](kadai7/711.png "Optional title")
 
 図２
 
 ダイナミックレンジは0から128となっている。
-
-![Alt text](772.png "Optional title")
+![Alt text](kadai7/712.png "Optional title")
 
 図３　
 
 明るくなった。
 
-![Alt text](773.png "Optional title")
+![Alt text](kadai7/713.png "Optional title")
 
 図４
 
-ダイナミックレンジだが変化し、0~255となっている。
+ダイナミックレンジが変化し、0~255となっている。
+
+### 他の画像で試した
+
+![Alt text](hashi1.png "Optional title")
+
+図５
+
+![Alt text](kadai7/770.png "Optional title")
+
+図６
+
+![Alt text](kadai7/771.png "Optional title")
+
+図７
+
+![Alt text](kadai7/772.png "Optional title")
+
+図８
+
+![Alt text](kadai7/773.png "Optional title")
+
+図９
+
 
 ## プログラムのソース
 
-[kadai7.m](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai7.m)
+[kadai7.m](https://github.com/shimamurakie/ImageProssessing/blob/master/kadai7.mm)
 
 ## 説明
 
