@@ -2,53 +2,51 @@
 
 ## 概要
 
-本稿では、ダイナミックレンジをMATLABを用いて変更した。
+本稿では、判別分析法を用いて画像二値化した．
 
 ## 使用した画像
 
-![Alt text](hashi1.png "Optional title")
+![Alt text](nuko.png "Optional title")
 
 ## 結果
 
 
-![Alt text](770.png "Optional title")
+![Alt text](kadai5/1.png "Optional title")
 
 図１　白黒濃淡
 
-![Alt text](771.png "Optional title")
+![Alt text](kadai5/2.png "Optional title")
 
 図２
 
-ダイナミックレンジは0から128となっている。
+猫の輪郭が分かるように2値化されている。
 
-![Alt text](772.png "Optional title")
+### 他の画像で実験
 
-図３　
+![Alt text](hashi.png "Optional title")
 
-明るくなった。
+図３　hashi.png
 
-![Alt text](773.png "Optional title")
+![Alt text](kadai5/21.png "Optional title")
 
 図４
 
-ダイナミックレンジだが変化し、0~255となっている。
+![Alt text](kadai5/51.png "Optional title")
+
+図5
 
 ## プログラムのソース
 
-[kadai7.m](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai7.m)
+[kadai5.m](https://github.com/shimamurakie/ImageProssessing/blob/master/kadai5.m)
+
 
 ## 説明
 
 ## 考察
 
-    imagesc(ORG); colormap(gray); colorbar; % 画像の表示
-    pause;
-    ORG = uint8(ORG); % この行について考察せよ
-    imhist(ORG); % 濃度ヒストグラムを生成、表示
+画像から分離度を算出し、自動的に閾値を決定して二値化処理を行う手法である。
 
-unit8は、変換されたORG(配列)の小数点以下の数値を丸め、8ビットの配列とする効果がある。
-
-これを行うことで、0から255のヒストグラムに対応した数値となる。
+この手法は、多くの画像処理ソフトやOpenCVにも実装されている。
 
 ## Contribution
 

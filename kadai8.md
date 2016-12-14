@@ -2,53 +2,59 @@
 
 ## 概要
 
-本稿では、ダイナミックレンジをMATLABを用いて変更した。
+本稿では、画像を２値化し、ラベリングを行った。
 
 ## 使用した画像
 
-![Alt text](hashi1.png "Optional title")
+![Alt text](hashi.png "Optional title")
 
 ## 結果
 
 
-![Alt text](770.png "Optional title")
+![Alt text](kadai8/11.png "Optional title")
 
 図１　白黒濃淡
 
-![Alt text](771.png "Optional title")
+![Alt text](kadai8/804.png "Optional title")
 
 図２
 
-ダイナミックレンジは0から128となっている。
+128で二値化
 
-![Alt text](772.png "Optional title")
+![Alt text](kadai8/805.png "Optional title")
 
 図３　
 
-明るくなった。
+ラベリングされている。
 
-![Alt text](773.png "Optional title")
+### 他の画像で実験
+
+![Alt text](nuko.png "Optional title")
 
 図４
 
-ダイナミックレンジだが変化し、0~255となっている。
+
+![Alt text](kadai8/1.png "Optional title")
+
+図５　白黒濃淡
+
+![Alt text](kadai8/2.png "Optional title")
+
+図６
+
+![Alt text](kadai8/3.png "Optional title")
+
+図７　
 
 ## プログラムのソース
 
-[kadai7.m](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai7.m)
+[kadai8.m](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai8.m)
 
 ## 説明
 
 ## 考察
 
-    imagesc(ORG); colormap(gray); colorbar; % 画像の表示
-    pause;
-    ORG = uint8(ORG); % この行について考察せよ
-    imhist(ORG); % 濃度ヒストグラムを生成、表示
 
-unit8は、変換されたORG(配列)の小数点以下の数値を丸め、8ビットの配列とする効果がある。
-
-これを行うことで、0から255のヒストグラムに対応した数値となる。
 
 ## Contribution
 
