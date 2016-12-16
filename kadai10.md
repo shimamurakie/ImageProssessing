@@ -2,40 +2,47 @@
 
 ## 概要
 
-本稿では、ダイナミックレンジをMATLABを用いて変更した。
-
+本稿では、輪郭を様々な方法で抽出した。
 ## 使用した画像
 
-![Alt text](hashi1.png "Optional title")
+![Alt text](kaze.png "Optional title")
 
 ## 結果
 
 
-![Alt text](770.png "Optional title")
+![Alt text](kadai10/0101.png "Optional title")
 
 図１　白黒濃淡
 
-![Alt text](771.png "Optional title")
+![Alt text](kadai10/0102.png "Optional title")
 
 図２
 
 ダイナミックレンジは0から128となっている。
 
-![Alt text](772.png "Optional title")
+![Alt text](kadai10/0103.png "Optional title")
 
 図３　
 
 明るくなった。
 
-![Alt text](773.png "Optional title")
+![Alt text](kadai10/0104.png "Optional title")
 
 図４
 
 ダイナミックレンジだが変化し、0~255となっている。
 
+![Alt text](kadai10/1020.png "Optional title")
+
+![Alt text](kadai10/1021.png "Optional title")
+
+![Alt text](kadai10/1022.png "Optional title")
+
+![Alt text](kadai10/1023.png "Optional title")
+
 ## プログラムのソース
 
-[kadai7.m](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai7.m)
+[kadai10.m](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai10.m)
 
 ## 説明
 
