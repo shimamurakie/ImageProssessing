@@ -3,7 +3,7 @@
 
 ## 概要
 
-本稿では、白黒濃淡画像にしたのち、２・４・８段階画像に変換した。
+今回の実験では、白黒濃淡画像にしたのち、２・４・８段階画像に変換した。
 
 ## 使用した画像
 
@@ -36,25 +36,25 @@
 
 ![Alt text](kadai2/1.png "Optional title")
 
-図１ 白黒濃淡画像
+図６ 白黒濃淡画像
 
 ![Alt text](kadai2/2.png "Optional title")
 
-図２　２段階調
+図７　２段階調
 
 ![Alt text](kadai2/3.png "Optional title")
 
-図３　4段階調
+図８　4段階調
 
 ![Alt text](kadai2/4.png "Optional title")
 
-図４　8段階調
+図９　8段階調
 
 ## プログラムのソース
 
 [kadai2.m](https://github.com/shimamurakie/ImageProssessing/blob/master/kadai2.m)
 
-## 説明
+## 8段階表示の説明
 
     IMG0 = ORG>32;
     IMG1 = ORG>64;
@@ -72,8 +72,6 @@
 どちらの画像においても、8段階画像で被写体が識別可能となる状態になっている。
 
 このようにしてポスタリゼーションを行うことで、画像のサイズを小さくすることができる。
-
-## Contribution
 
 
 
