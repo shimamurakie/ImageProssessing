@@ -2,11 +2,12 @@
 
 ## 概要
 
-本稿では、ダイナミックレンジをMATLABを用いて変更した。
+今回の実験では、ダイナミックレンジをMATLABを用いて変更した。
 
 ## 使用した画像
 
 ![Alt text](nuko1.png "Optional title")
+nuko.pngをGIMPを用いてレベル調整したもの。
 
 ## 結果
 
@@ -38,6 +39,8 @@
 
 図５
 
+hashi.pngをGIMPを用いてレベル調整したもの。
+
 ![Alt text](kadai7/770.png "Optional title")
 
 図６
@@ -59,7 +62,7 @@
 
 [kadai7.m](https://github.com/shimamurakie/ImageProssessing/blob/master/kadai7.mm)
 
-## 説明
+
 
 ## 考察
 
@@ -71,8 +74,6 @@
 unit8は、変換されたORG(配列)の小数点以下の数値を丸め、8ビットの配列とする効果がある。
 
 これを行うことで、0から255のヒストグラムに対応した数値となる。
-
-## Contribution
 
 
 

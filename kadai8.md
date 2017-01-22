@@ -8,6 +8,8 @@
 
 ![Alt text](hashi.png "Optional title")
 
+hashi.png
+
 ## 結果
 
 
@@ -33,6 +35,7 @@
 
 図４
 
+nuko.png
 
 ![Alt text](kadai8/1.png "Optional title")
 
@@ -46,17 +49,20 @@
 
 図７　
 
+ラベリングされている。
+
 ## プログラムのソース
 
 [kadai8.m](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai8.m)
 
-## 説明
+
 
 ## 考察
 
+ラベリングとは特定のオブジェクトや領域を抽出するための手法のこと。 ラベルと呼ばれる数値を使い、画素のグループ化を行う。
 
+ラベリングでは同じ画素値を持つ隣接画素には全て同じラベルが設定される。
 
-## Contribution
 
 
 

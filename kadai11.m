@@ -1,18 +1,18 @@
 %
-% ‰æ‘œ‚ÌF‘Š‚ğ•Ï’²
+% ç”»åƒã®è‰²ç›¸ã‚’å¤‰èª¿
 %
 %
 clear;
-imagedata=imread('hashi.bmp');		% ‰æ‘œ‚Ì“Ç‚İ‚İ
-imagedata=double(imagedata);		% Œ^•ÏŠ·
-[x,y,z]=size(imagedata);			% ‰æ‘œƒTƒCƒY‚Ìæ“¾
+imagedata=imread('hashi.bmp');		% ç”»åƒã®èª­ã¿è¾¼ã¿
+imagedata=double(imagedata);		% å‹å¤‰æ›
+[x,y,z]=size(imagedata);			% ç”»åƒã‚µã‚¤ã‚ºã®å–å¾—
 
-change=zeros(x,y,z);			% •Ï‰»ƒe[ƒuƒ‹‰Šú‰»
-change(:,:,1)=-10;				% ÔF‚Ì•Ï‰»—Ê
-change(:,:,2)=50;				% —ÎF‚Ì•Ï‰»—Ê
-change(:,:,3)=100;				% ÂF‚Ì•Ï‰»—Ê
+change=zeros(x,y,z);			% å¤‰åŒ–ãƒ†ãƒ¼ãƒ–ãƒ«åˆæœŸåŒ–
+change(:,:,1)=-10;				% èµ¤è‰²ã®å¤‰åŒ–é‡
+change(:,:,2)=50;				% ç·‘è‰²ã®å¤‰åŒ–é‡
+change(:,:,3)=100;				% é’è‰²ã®å¤‰åŒ–é‡
 
-imagedata=imagedata+change;			% •Ï’²
+imagedata=imagedata+change;			% å¤‰èª¿
 
-imagedata=uint8(imagedata);			% Œ^•ÏŠ·
-imagesc(imagedata);			% ‰æ‘œo—Í
+imagedata=uint8(imagedata);			% å‹å¤‰æ›
+imagesc(imagedata);			% ç”»åƒå‡ºåŠ›
