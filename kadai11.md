@@ -9,7 +9,7 @@
 
 ![Alt text](hashi.png "Optional title")
 
-図１　白黒濃淡
+図１　hashi.png
 
 ## 結果
 
@@ -30,6 +30,7 @@
 ## 説明
 
     change=zeros(x,y,z);
+
 着色を行うためのフィルタを定義している。
 
     imagedata=imagedata+change;
