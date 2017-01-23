@@ -1,26 +1,26 @@
 ## readme
 
-‚±‚ÌƒŠƒ|ƒWƒgƒŠ‚ÍA‰æ‘œˆ—HŠw‚Ìö‹ÆƒŒƒ|[ƒg‚ğ’ño‚·‚éê‚Å‚·B
+ã“ã®ãƒªãƒã‚¸ãƒˆãƒªã¯ã€ç”»åƒå‡¦ç†å·¥å­¦ã®æˆæ¥­ãƒ¬ãƒãƒ¼ãƒˆã‚’æå‡ºã™ã‚‹å ´ã§ã™ã€‚
 
-### –ÚŸ
+### ç›®æ¬¡
 
-1. [‰Û‘è‚P](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai1.md)
+* [èª²é¡Œï¼‘](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai1.md)
 
-* [‰Û‘è‚Q](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai2.md)
+* [èª²é¡Œï¼’](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai2.md)
 
-* [‰Û‘è‚R](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai3.md)
+* [èª²é¡Œï¼“](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai3.md)
 
-* [‰Û‘è‚S](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai4.md)
+* [èª²é¡Œï¼”](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai4.md)
 
-* [‰Û‘è‚T](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai5.md)
+* [èª²é¡Œï¼•](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai5.md)
 
-* [‰Û‘è‚U](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai6.md)
+* [èª²é¡Œï¼–](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai6.md)
 
-* [‰Û‘è‚V](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai7.md)
+* [èª²é¡Œï¼—](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai7.md)
 
-* [‰Û‘è‚W](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai8.md)
+* [èª²é¡Œï¼˜](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai8.md)
 
-* [‰Û‘è‚X](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai9.md)
+* [èª²é¡Œï¼™](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai9.md)
 
-* [‰Û‘è‚P‚O](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai10.md)
+* [èª²é¡Œï¼‘ï¼](https://github.com/shimamurakie/ImageProssessing/edit/master/kadai10.md)
 
